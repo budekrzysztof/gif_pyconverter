@@ -96,11 +96,11 @@ list_frame_holder.place(relwidth=0.3, relheight=0.5, rely=0.3, relx=0.05)
 
 # frame with actual list of videos
 list_frame = tk.Frame(list_frame_holder, bg="#CCAFA5")
-list_frame.place(relwidth=0.9, relheight=0.6, rely=0.12, relx=0.05)
+list_frame.place(relwidth=0.9, relheight=0.6, rely=0.15, relx=0.05)
 
 # label FILES
 lab = tk.Label(list_frame_holder, text='FILES', bg="#CCAFA5", font=fut14)
-lab.pack(pady=0.1)
+lab.pack(pady=0.15, ipady=10)
 
 # frame containing buttons
 frame2 = tk.Frame(root, bg="#DCD2CC")
